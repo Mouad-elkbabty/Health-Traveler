@@ -1,0 +1,206 @@
+#corps {
+    margin: 0 auto;
+}
+
+#coteG {
+    background-color: rgb(253, 133, 133);
+    width: 350px;
+    
+}
+#Binome {
+
+    margin-right: 30px;
+}
+#coteD {
+    background-color: white;
+    width: 770px;
+}
+
+#QetC {
+    margin-left: 20px;
+    width: 270px;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+}
+
+#infos {
+    margin-left: 10px;
+}
+
+#gateau {
+    width: 30px;
+    height: 30px;
+}
+
+#mail {
+    width: 30px;
+    height: 30px;
+}
+
+#telephone {
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin {
+    margin-left: 10px;
+}
+
+#profil {
+    margin-left: 10px;
+    width: 300px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#pProfil {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+#hab {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 300px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#pHab{
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+#langues {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 300px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#interet {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 300px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#carac {
+    margin-left: 25px;
+}
+
+#statut {
+    margin-left: 10px;
+}
+
+#comp {
+    width: 150px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#qual {
+    width: 100px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#sepCompQual {
+    margin-left: 90px;
+}
+
+#exp {
+    width: 280px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#form {
+    width: 110px;
+    border-bottom-style: solid;
+    border-width: 1.5px 1px;
+}
+
+#etu {
+    color: rgb(243, 107, 121);
+}
+
+#list1 {
+    margin: 15px;
+    padding: 0;
+    color: rgb(243, 107, 121);
+}
+
+#list2 {
+    margin: 15px;
+    padding: 0;
+    color: rgb(243, 107, 121);
+}
+
+#sdis {
+    color: rgb(243, 107, 121);
+}
+
+#rhoda {
+    color: rgb(243, 107, 121);
+}
+
+#l2 {
+    color: rgb(243, 107, 121);
+
+}
+
+#l2txt{
+    text-align: justify;
+    margin-right: 45%;
+}
+
+#l1 {
+    color: rgb(243, 107, 121)
+}
+
+#l1txt{
+    text-align: justify;
+    margin-right: 45%;
+}
+
+#photoQ {
+    margin-left: 85px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+    width: 175px;
+    height: 220px;
+}
+
+#javalogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#htmllogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#csslogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#clogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#pythonlogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}

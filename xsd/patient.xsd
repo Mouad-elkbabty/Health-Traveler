@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xsi:schema version="1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+           xmlns:pat="http://www.ujf-grenoble.fr/l3miage/medical/patient"
+           targetNamespace="http://www.ujf-grenoble.fr/l3miage/medical/patient"
+           elementFormDefault="qualified">
+    
+    <!-- Racine : Patients -->
+    <xsi:element name="patients" type="pat:Patients"/>
+    
+    
+    <!-- Type: Patients-->       
+    <xsi:complexType name="Patients">
+        <xsi:sequence>
+            <xsi:element name="patient" type="pat:Patient" maxOccurs="unbounded"/>
+        </xsi:sequence>
+    </xsi:complexType>   
+        
+        
+    <!-- Type : Patient-->                                   
+    <xsi:complexType name="Patient">
+        <xsi:sequence>
+            <xsi:element name="nom"/>
+            <xsi:element name="prénom"/>
+            <xsi:element name="sexe"/>
+            <xsi:element name="naissance" type="xsi:date"/>
+            <xsi:element name="numéro" />
+            <xsi:element name="adresse" type="pat:Adresse"/>
+            <xsi:element name="visite" type="pat:Visite"/>
+        </xsi:sequence>   
+    </xsi:complexType>
+    
+    
+    <!-- Type : Adresse -->
+    <xsi:complexType  name="Adresse">
+        <xsi:sequence>
+            <xsi:element name="étage" type="xsi:string" minOccurs="0"/> 
+            <xsi:element name="numéro" type="xsi:string" minOccurs="0"/>
+            <xsi:element name="rue" type="xsi:string"/>
+            <xsi:element name="ville" type="xsi:string"/>
+            <xsi:element name="codePostal" type="xsi:int"/>
+        </xsi:sequence>
+    </xsi:complexType>
+        
+           
+    <!-- Type : Visite -->   
+    <xsi:complexType name="Visite" >
+        <xsi:sequence>
+            <xsi:element name="acte" type="pat:Acte" maxOccurs="unbounded"/> 
+        </xsi:sequence>
+        <xsi:attribute name="date" type="xsi:date"/>
+        <xsi:attribute name="intervenant" type="xsi:string" use="optional"/>
+    </xsi:complexType>
+    
+       
+    <!-- Type :Acte --> 
+    <xsi:complexType name="Acte">
+        <xsi:attribute name="id" type="xsi:int"/>
+    </xsi:complexType>
+   
+
+</xsi:schema>
