@@ -1,6 +1,6 @@
   
   
-  The “Healthy Traveler” project offers us to carry out a
+  The “Health Traveler” project offers us to carry out a
   
 web application to manage traveler issue from
 
@@ -19,3 +19,5 @@ patient.xsd) then XSLT transformations aimed at extracting
 patient data, the list of interventions by a nurse and the invoice
 
 of a patient.
+
+languages used : XML/XSLT/XSD/JAVASCRIPT/HTML/CSS
